@@ -1,0 +1,93 @@
+How did viewing a diff between two versions of a file help you see the bug that
+
+was introduced?
+
+
+
+    Done!
+
+
+
+How could having easy access to the entire history of a file make you a more
+
+efficient programmer in the long term?
+
+
+
+    Done!
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+
+commit, like you do in Git, vs having versions automatically saved, like Google
+
+docs does?
+
+
+
+    Pros: you can decide when it makes sense to commit (commit a logical change).
+
+	If files are saved automatically it may not make sense later on, since you
+
+	were in the middle of coding and haven't concluded your thought.
+
+	
+
+	Cons: if your forget about commiting and something went wrong you may be
+
+	screwed. Particularly after working hours on something.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+
+files in one commit, while others, like Google Docs, treat each file separately?
+
+
+
+    When developing projects or apps for the web or writing software its common
+
+	that files have some interdependencies, thus it's necessary to save all
+
+	files at once. For example, if you'd have some trouble with your js file
+
+	and need to go back to an older stable version, you may need the
+
+	respective html and css from that point in time as well, since otherwise
+
+	if you'd stick with the current html and css file but revert to the  js
+
+	file it might not work well together or even not at all.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+
+    git log: gets you an overview of your commit history. For the history to
+
+	be useful add meaningful commit messages that describe eacht commit
+
+	properly.
+
+	git diff id1 id2: helps you to track what has changed from one commit
+
+	to another.
+
+How might using version control make you more confident to make changes that
+
+could break something?
+
+    Since you can always go back to previous commits, you don't have to worry
+
+	too much about possible breaks, as long as you commmit on a regular basis
+
+	as well as use sensible commits.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+
+    First of all, I'd like to use it to get my GitHub Page up and running. :)
