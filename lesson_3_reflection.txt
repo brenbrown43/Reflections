@@ -1,0 +1,47 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    You'd use a remote repository when you'd rather keep your work on GitHub
+or if you'd like to not go through the trouble of keeping all your work on
+a local computer (if you don't have admin privileges). To save on the cloud 
+and not have to worry about losing changes.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    You might want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository because it could
+become tedious with all the changes, pushes and pulls.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Forks are available to copy and are different from clones in that you cannot
+clone someone else's work and claim as your own. Branches are similar to clones
+in that it creates a separate trace-able version of the same file that you can
+trace back to the original version, but is different from forking because it
+does not give rights to modify the original.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    You don't have to have internet access to pull the last state of the remote
+and can work offline. Then when you get back to having internet access, then 
+you can push to GitHub.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    It would be difficult but I'm sure some other tool has been created and used
+in the past. SharePoint has been used in the past as a collaboration tool, some
+companies internally develop their own version of an IT app dev collaboration tool
+that meets the needs of their own businesses. Depending on who is using Git or
+GitHub, you would want to use whatever tool the person/people you're collaborating
+with are using to ensure ease-of-use and accomplishment of unified goals.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    If you have another user's changes that are going to be merged into master at
+some point and you want to get feedback on it, you are probably going to use a 
+separate branch since making changes to master would be redundant.
